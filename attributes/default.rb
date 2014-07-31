@@ -17,7 +17,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-default['couch_db']['src_checksum']   = 'f986bbfe58051c3b186d520967237eea'
+default['couch_db']['src_checksum']   = '62f99077c201ad632c1cd144fcaf6f10fa5949ed'
 default['couch_db']['src_version']    = '1.6.0'
 default['couch_db']['src_mirror']     = "http://archive.apache.org/dist/couchdb/source/#{node['couch_db']['src_version']}/apache-couchdb-#{node['couch_db']['src_version']}.tar.gz"
 default['couch_db']['install_erlang'] = true
